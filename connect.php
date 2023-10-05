@@ -9,7 +9,4 @@
     if($conn -> connect_error){
         die("Connection failed" . $conn -> connect_error);
     }
-    echo "MySQLi client version" . $conn -> client_info . "<br>";
-    echo "MySQLi server info" . $conn -> server_info . "<br>";
-    echo "MySQLi server version" . $conn -> server_version . "<br>";
 ?>
